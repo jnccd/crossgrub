@@ -16,10 +16,10 @@ terminal-font: "Monocraft Regular 22"
 + boot_menu {
 	left = 2%-1
 	top = 60%-1
-	width = 600
-	height = 500
+	width = 31%
+	height = 46%
 
-	item_font = "PixelHallfeticaJP10P Regular 30"
+	item_font = "PixelHallfeticaJP10P Regular 26"
 	item_color = white
 	selected_item_color = white
 	item_height = 30
@@ -31,10 +31,10 @@ terminal-font: "Monocraft Regular 22"
 + boot_menu {
 	left = 2%
 	top = 60%
-	width = 600
-	height = 500
+	width = 31%
+	height = 46%
 
-	item_font = "PixelHallfeticaJP10P Regular 30"
+	item_font = "PixelHallfeticaJP10P Regular 26"
 	item_color = black
 	selected_item_color = black
 	item_height = 30
@@ -46,33 +46,33 @@ terminal-font: "Monocraft Regular 22"
 	scrollbar = false
 }
 
-# TEXT 
+# TEXT
 + label {
 	id = "__timeout__"
-	
-	left = 50%
+
+	left = 20%
 	top = 100%-50
 	height = 24
-	width = 50%-6	
-	
+	width = 80%-6
+
 	text = "Executing selected entry in %d seconds"
 	align = "right"
-	font = "PixelHallfeticaJP10P Regular 30"
+	font = "PixelHallfeticaJP10P Regular 24"
 	color = "white"
 }
 
-# SHADOW 
+# SHADOW
 + label {
 	id = "__timeout__"
 
-	left = 50%+3
+	left = 20%+3
 	top = 100%-47
 	height = 24
-	width = 50%-6
+	width = 80%-6
 
 	text = "Executing selected entry in %d seconds"
 	align = "right"
-	font = "PixelHallfeticaJP10P Regular 30"
+	font = "PixelHallfeticaJP10P Regular 24"
 	color = "#3f3f3f"
 }
 
