@@ -16,13 +16,13 @@ terminal-font: "Monocraft Regular 22"
 + boot_menu {
 	left = 2%-1
 	top = 60%-1
-	width = 31%
+	width = 45%
 	height = 46%
 
-	item_font = "PixelHallfeticaJP10P Regular 26"
+	item_font = "PixelHallfeticaJP10P Regular 24"
 	item_color = white
 	selected_item_color = white
-	item_height = 30
+	item_height = 23
 	item_icon_space = -20
 	item_spacing = 45
 	scrollbar = false
@@ -31,13 +31,13 @@ terminal-font: "Monocraft Regular 22"
 + boot_menu {
 	left = 2%
 	top = 60%
-	width = 31%
+	width = 45%
 	height = 46%
 
-	item_font = "PixelHallfeticaJP10P Regular 26"
+	item_font = "PixelHallfeticaJP10P Regular 24"
 	item_color = black
 	selected_item_color = black
-	item_height = 30
+	item_height = 23
 	item_padding = 0
 	item_icon_space = -20
 	item_spacing = 45
