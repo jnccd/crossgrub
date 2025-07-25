@@ -1,11 +1,11 @@
+> [!NOTE]  
+> The purpose of this fork is to improve the compatibility for screen sizes above 1440p and below 1080p.
+
 # Crossgrub
 
 [CrossCode](https://cross-code.com) themed GRUB2 theme
 
 ![Screenshot of the theme (1080p)](https://github.com/user-attachments/assets/694a1b87-44b6-439b-8447-330c3477534f)
-
-> [!NOTE]  
-> The purpose of this fork os the improve the compatibility for screen sizes above 1440p and below 1080p.
 
 ## Installation
 
