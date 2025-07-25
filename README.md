@@ -1,7 +1,11 @@
 # Crossgrub
+
 [CrossCode](https://cross-code.com) themed GRUB2 theme
 
 ![Screenshot of the theme (1080p)](https://github.com/user-attachments/assets/694a1b87-44b6-439b-8447-330c3477534f)
+
+> [!NOTE]  
+> The purpose of this fork os the improve the compatibility for screen sizes above 1440p and below 1080p.
 
 ## Installation
 
@@ -10,16 +14,19 @@
 - Download `crossgrub.tar.gz` archive from the latest release
 
 - Extract the archive into the `/boot/grub/themes` directory by running:
+
 ```bash
 tar xf crossgrub.tar.gz --directory=/boot/grub/themes
 ```
 
 - Change/add this line in your `/etc/default/grub`:
+
 ```
 GRUB_THEME=/boot/grub/themes/crossgrub/theme.txt
 ```
 
 - Update your live grub config by running:
+
 ```
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
@@ -29,21 +36,25 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ### From source
 
 - Clone the repository
+
 ```bash
 git clone https://github.com/krypciak/crossgrub
 ```
 
 - Run the installation script as root
+
 ```bash
 sudo bash ./install.sh
 ```
 
 - Change/add this line in your `/etc/default/grub`:
+
 ```
 GRUB_THEME=/boot/grub/themes/crossgrub/theme.txt
 ```
 
 - Update your live grub config by running:
+
 ```
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
@@ -51,10 +62,10 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 - Done!
 
 - If you want, you can preview the theme using `grub2-theme-preview` (you need to install it first):
+
 ```
 grub2-theme-preview /boot/grub/themes/crossgrub --resolution 1920x1080
 ```
-
 
 ## Screenshots
 
