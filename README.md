@@ -1,6 +1,10 @@
 > [!NOTE]  
 > The purpose of this fork is to improve the compatibility for screen sizes above 1440p and below 1080p.
 
+### Nix Package 
+
+This repo is packaged for nix [here](https://github.com/jnccd/nixos-config/blob/072a75cdbb1101f82e164938c613346d6dc2fb87/modules/generic/gui/grub-theme/crossgrub.nix).
+
 # Crossgrub
 
 [CrossCode](https://cross-code.com) themed GRUB2 theme
